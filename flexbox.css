@@ -1,0 +1,157 @@
+.container {
+    height: 80vh;
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+    color: #3f4cc3;
+    background-color: rgba(223, 219, 219, 0.493);
+
+}
+
+body {
+    font-family: 'poppins';
+    font-size:15px;
+}
+
+h1 {
+    padding-left: 40px;
+}
+
+.tasks {
+    display: flex;
+    position: relative;
+
+}
+
+.task {
+    /* border: 1px solid red; */
+    height: auto;
+    padding-left: 60px;
+    width: 40%;
+    margin: 0px;
+    width: 25%;
+}
+
+label {
+    padding-top: 10px;
+}
+
+.task1 {
+    display: flex;
+    height: 30vh;
+    width: 80%;
+    position: absolute;
+    transform: translate(38%, 45%);
+   
+}
+
+#company,
+#priority,
+#task,
+#tags,
+#working {
+    padding: 10px;
+}
+
+input[type=submit] {
+    border: none;
+    margin-top: 15px;
+    text-align: center;
+    height: 6vh;
+    border-radius: 4px;
+    color: white;
+    background: #3f4cc3;
+}
+
+.form {
+    height: auto;
+    width: 100%;
+    display: flex;
+    /* padding: 10px; */
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-bottom: 10px; */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 50px;
+    padding-left: 100px;
+    width: 50%;
+    background-color: white;
+    height: 25vh;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+
+}
+
+
+.image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translate(240%, 30%);
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.task1head {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+}
+
+body>div>div>div.task1>div>div.bottom>div:nth-child(2),
+.date {
+    padding-right: 20px;
+}
+.date {
+    color:gray;
+}
+body>div>div>div.task1>div>div.task1head>div:nth-child(1) {
+    background-color: rgb(226, 43, 217);
+    /* height: 4vh; */
+    width: 20%;
+    text-align: center;
+    border-radius: 6px;
+    color: white;
+    font-weight: 10px;
+    height: fit-content;
+    padding-top: 2px;
+}
+
+.icons {
+    height: 15px;
+    width: 15px;
+    align-content: center;
+    
+}
+
+select {
+    background-color: rgba(223, 219, 219, 0.493);
+}
+
+button {
+    border: none;
+    color: #3f4cc3;
+    border-radius: 5px;
+    width: max-content;
+    background-color: rgba(165, 160, 160, 0.493);
+}
+
+h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
